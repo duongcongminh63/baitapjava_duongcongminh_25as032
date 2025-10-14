@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Date.java</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #cf8e6d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+.s3 { color: #6aab73;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Date.java</font>
+</center></td></tr></table>
+<pre><span class="s0">public class </span><span class="s1">Date </span><span class="s2">{</span>
+    <span class="s0">private int </span><span class="s1">day</span><span class="s2">;</span>
+    <span class="s0">private int </span><span class="s1">month </span><span class="s2">;</span>
+    <span class="s0">private int </span><span class="s1">year </span><span class="s2">;</span>
+    <span class="s0">public </span><span class="s1">Date </span><span class="s2">(</span><span class="s0">int </span><span class="s1">day </span><span class="s2">, </span><span class="s0">int </span><span class="s1">month </span><span class="s2">, </span><span class="s0">int </span><span class="s1">year </span><span class="s2">){</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">day </span><span class="s2">= </span><span class="s1">day </span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">month </span><span class="s2">= </span><span class="s1">month </span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">year </span><span class="s2">= </span><span class="s1">year </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public int </span><span class="s1">getDay </span><span class="s2">(){</span>
+        <span class="s0">return </span><span class="s1">day </span><span class="s2">;</span>
+
+    <span class="s2">}</span>
+    <span class="s0">public int </span><span class="s1">getMonth </span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">month </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public int </span><span class="s1">getYear </span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s1">year </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public void </span><span class="s1">setDay </span><span class="s2">(</span><span class="s0">int </span><span class="s1">day </span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">day </span><span class="s2">= </span><span class="s1">day </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public void </span><span class="s1">setMonth </span><span class="s2">(</span><span class="s0">int </span><span class="s1">month </span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">month </span><span class="s2">= </span><span class="s1">month </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public void </span><span class="s1">setYear </span><span class="s2">(</span><span class="s0">int </span><span class="s1">year </span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">year </span><span class="s2">= </span><span class="s1">year </span><span class="s2">;</span>
+    <span class="s2">}</span>
+    <span class="s0">public void </span><span class="s1">setDate </span><span class="s2">(</span><span class="s0">int </span><span class="s1">day </span><span class="s2">, </span><span class="s0">int </span><span class="s1">month </span><span class="s2">, </span><span class="s0">int </span><span class="s1">year </span><span class="s2">) {</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">day </span><span class="s2">= </span><span class="s1">day </span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">month </span><span class="s2">= </span><span class="s1">month </span><span class="s2">;</span>
+        <span class="s0">this</span><span class="s2">.</span><span class="s1">year </span><span class="s2">= </span><span class="s1">year </span><span class="s2">;</span>
+    <span class="s2">}</span>
+
+    <span class="s1">@Override</span>
+    <span class="s0">public </span><span class="s1">String toString</span><span class="s2">() {</span>
+        <span class="s0">return </span><span class="s3">&quot;Date{&quot; </span><span class="s2">+</span>
+                <span class="s3">&quot;day=&quot; </span><span class="s2">+ </span><span class="s1">day </span><span class="s2">+</span>
+                <span class="s3">&quot;, month=&quot; </span><span class="s2">+ </span><span class="s1">month </span><span class="s2">+</span>
+                <span class="s3">&quot;, year=&quot; </span><span class="s2">+ </span><span class="s1">year </span><span class="s2">+</span>
+                <span class="s3">'}'</span><span class="s2">;</span>
+    <span class="s2">}</span>
+<span class="s2">}</span>
+</pre>
+</body>
+</html>
